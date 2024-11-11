@@ -33,9 +33,17 @@ class UserProfile extends StatelessWidget {
             style:
                 TextStyle(fontSize: nameFontSize, fontWeight: FontWeight.bold),
           ),
-          Text(
-            "Admin",
-            style: TextStyle(color: Colors.grey[600]),
+          Container(
+            width: 100,
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(color: Colors.blue)),
+            child: Center(
+              child: Text(
+                "Admin",
+                style: TextStyle(color: Colors.grey[600]),
+              ),
+            ),
           ),
           const Divider(),
         ],

@@ -92,7 +92,7 @@ class MainContent extends StatelessWidget {
                               Expanded(child: TopCreatorsCard()),
                             ],
                           ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
                     Container(
